@@ -455,7 +455,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     border-radius: 25px;
     cursor: pointer;
-    transition: all 0.3s ease;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
     position: relative;
@@ -482,8 +481,6 @@ h1, h2, h3, h4, h5, h6 {
 .filter-btn:hover,
 .filter-btn.active {
     color: #000;
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
 }
 
 .projects-grid {
@@ -497,11 +494,10 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s ease;
     opacity: 0;
     transform: translateY(30px);
-    cursor: pointer;
     position: relative;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .project-card.visible {
@@ -509,16 +505,18 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(0);
 }
 
-.project-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 20px 50px rgba(255, 255, 255, 0.1);
-}
-
 .project-image {
     height: 200px;
     background: linear-gradient(135deg, #fff, #ccc);
     position: relative;
     overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .project-overlay {
@@ -561,7 +559,6 @@ h1, h2, h3, h4, h5, h6 {
 .project-link:hover {
     background-color: #000;
     color: #fff;
-    transform: scale(1.1);
 }
 
 .project-content {
@@ -594,7 +591,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.9rem;
     font-weight: 500;
     transition: background-color 0.3s ease;
-    cursor: pointer;
 }
 
 .tech-tag:hover {
@@ -918,6 +914,17 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+@keyframes messagePop {
+    0% {
+        opacity: 0;
+        transform: translateY(20px) scale(0.95);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
 @keyframes typing {
     from { width: 0; }
     to { width: 100%; }
@@ -938,7 +945,6 @@ h1, h2, h3, h4, h5, h6 {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project-card:hover,
 .skill-item:hover,
 .stat-item:hover {
     transform: translateY(-10px) scale(1.02);
@@ -1078,4 +1084,79 @@ h1, h2, h3, h4, h5, h6 {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #ccc;
+}
+
+/* Form Message Styles */
+.form-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    padding: 1.2rem;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 500;
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    min-width: 200px;
+    max-width: 70%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 0.85rem;
+}
+
+.form-message.show {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    animation: messagePop 0.3s ease forwards;
+}
+
+.form-message.success strong {
+    font-size: 1em;
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+.close-popup {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-popup:hover {
+    opacity: 0.7;
+}
+
+/* Overlay for popup */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.popup-overlay.show {
+    opacity: 1;
+    visibility: visible;
 }

@@ -1,0 +1,40 @@
+FORMSPREE INTEGRATION GUIDE FOR YOUR PORTFOLIO
+
+1. Sign up for a free Formspree account:
+   - Go to https://formspree.io
+   - Click "Get Started Free"
+   - Enter your email and create an account
+   - Verify your email address
+
+2. Create a new form:
+   - After logging in, click "New Project" or "+ New Form"
+   - Give your form a name (e.g., "Portfolio Contact Form")
+   - Enter the email where you want to receive messages
+   - Click "Create Form"
+
+3. Get your Form ID:
+   - After creating the form, you'll see a page with integration instructions
+   - Look for your Form ID in the URL or in the integration code
+   - It will look something like "f/xyz12345" where "xyz12345" is your actual Form ID
+
+4. Update your HTML form:
+   - Open index.html in your portfolio
+   - Find the form element with class "contact-form"
+   - Replace "YOUR_FORM_ID" in the action attribute with your actual Form ID
+   - The action should look like: action="https://formspree.io/f/xyz12345"
+
+5. Test your form:
+   - Save all changes
+   - Open your portfolio in a browser
+   - Fill out and submit the contact form
+   - Check your email for the submission (it may take a few minutes)
+
+That's it! Your contact form will now send messages directly to your email through Formspree's free service.
+
+LIMITATIONS OF THE FREE PLAN:
+- 50 submissions per form per month
+- Basic spam protection
+- No custom redirect URLs
+- No file attachments
+
+If you need more features, Formspree offers paid plans starting at $10/month.
