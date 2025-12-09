@@ -1,0 +1,126 @@
+# Marcelo's Portfolio - Knowledge Base
+
+## About Marcelo
+
+Marcelo is a passionate Full Stack Developer with 1+ years of experience creating elegant solutions to complex problems. He focuses on building scalable applications that provide exceptional user experiences using modern web technologies.
+
+When not coding, Marcelo explores new technologies, contributes to open-source projects, and shares knowledge with the developer community.
+
+## Contact Information
+
+- Email: marcelo.devxyz@gmail.com
+- Phone: +63 993 774 7658
+- Location: Cebu City
+- GitHub: https://github.com/m4rc-dev
+- Portfolio: https://m4rc-dev-portfolio.vercel.app/
+
+## Statistics
+
+- Years of Experience: 1+
+- Projects Completed: 10+
+- Client Satisfaction: High (focused on quality and user experience)
+
+## Featured Projects
+
+### 1. E-Commerce Platform
+A modern e-commerce solution built with React, Node.js, and MongoDB. This project features user authentication, payment processing, and an admin dashboard for managing products and orders.
+
+Technologies: React, Node.js, MongoDB
+
+### 2. Task Management App
+A collaborative task management application with real-time updates, team collaboration features, and progress tracking. Users can create tasks, assign them to team members, and monitor project progress in real-time.
+
+Technologies: Vue.js, Firebase, Tailwind CSS
+
+### 3. Weather Dashboard
+A beautiful weather application that provides real-time forecasts and detailed weather analytics. Users can search for any location and view current conditions, hourly forecasts, and extended forecasts.
+
+Live Link: https://weather-dashboarddd.vercel.app/
+Technologies: JavaScript, Weather API, CSS3
+
+### 4. Portfolio Website
+A modern, responsive portfolio website with smooth animations, interactive elements, and excellent user experience. Built with vanilla HTML5, CSS3, and JavaScript to showcase projects and skills.
+
+Technologies: HTML5, CSS3, JavaScript
+
+### 5. Fitness Tracker
+A comprehensive fitness tracking mobile app with workout plans, progress monitoring, and social features. Users can log workouts, track their fitness journey, and connect with other fitness enthusiasts.
+
+Technologies: React Native, Redux, Firebase
+
+### 6. Brand Identity Design
+Complete brand identity design including logo, color palette, typography, and marketing materials for various clients. This project showcases design thinking and brand strategy expertise.
+
+Technologies: Figma, Adobe Creative Suite, Brand Strategy
+
+## Skills and Technologies
+
+### Frontend Development Skills:
+- HTML5 (Expert level: 95%)
+- CSS3 (Advanced level: 90%)
+- JavaScript (Advanced level: 85%)
+- React (Proficient level: 80%)
+- Vue.js (Proficient level: 75%)
+
+### Backend Development Skills:
+- Node.js (Advanced level: 85%)
+- MongoDB (Advanced level: 80%)
+- PostgreSQL (Proficient level: 75%)
+- Express.js (Advanced level: 80%)
+
+### Tools and Technologies:
+- Git (Advanced level: 90%)
+- Docker (Proficient level: 70%)
+- AWS (Proficient level: 75%)
+
+## What Marcelo Can Help With
+
+Marcelo specializes in:
+1. Full-stack web application development
+2. Frontend development with modern frameworks (React, Vue.js)
+3. Backend development with Node.js and databases
+4. Responsive design and user experience
+5. E-commerce solutions
+6. Real-time applications
+7. API development and integration
+8. Mobile app development with React Native
+9. UI/UX design with Figma
+10. Cloud deployment and DevOps
+
+## Work Approach
+
+Marcelo follows a user-centered approach to development:
+- Clean, maintainable code
+- Focus on user experience
+- Scalable architecture
+- Modern best practices
+- Continuous learning and improvement
+
+## Availability
+
+Marcelo is always interested in hearing about new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out via:
+- Email: marcelo.devxyz@gmail.com
+- Phone: +63 993 774 7658
+
+## Frequently Asked Questions
+
+Q: What is Marcelo's primary expertise?
+A: Full-stack web development with modern technologies including React, Node.js, and various databases.
+
+Q: Where is Marcelo located?
+A: Cebu City, Philippines
+
+Q: What types of projects does Marcelo work on?
+A: E-commerce platforms, web applications, mobile apps, task management systems, weather apps, portfolio websites, and more.
+
+Q: What tech stack does Marcelo prefer?
+A: For frontend: React or Vue.js with modern CSS. For backend: Node.js with Express and MongoDB or PostgreSQL.
+
+Q: How can I contact Marcelo?
+A: Email at marcelo.devxyz@gmail.com or phone at +63 993 774 7658
+
+Q: Does Marcelo do freelance work?
+A: Yes, Marcelo is interested in new opportunities and exciting projects.
+
+Q: What is Marcelo's experience level?
+A: 1+ years of professional experience with 10+ completed projects.
