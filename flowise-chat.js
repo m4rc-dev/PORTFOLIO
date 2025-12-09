@@ -2,9 +2,9 @@
 // Configuration
 const FLOWISE_CONFIG = {
     // UPDATE THIS with your Flowise endpoint after deployment
-    apiUrl: 'http://localhost:3000/api/v1/prediction',
+    apiUrl: 'https://flowise-production-e959.up.railway.app/api/v1/prediction',
     // UPDATE THIS with your chatflow ID from Flowise
-    chatflowId: '2ac65b3e-578f-489a-b739-a7a00d8458cb'
+    chatflowId: '1b485e16-a9ed-4176-8aca-138bba7010ec'
 };
 
 // Chat state
